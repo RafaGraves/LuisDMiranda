@@ -1,0 +1,74 @@
+body {
+    font-family: 'Montserrat', sans-serif;;
+}
+
+h1 {
+    color: #FFF;
+    letter-spacing: .2rem;
+}
+
+
+
+.hero {
+    background-color: #F5EFE7;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #fff, #aaa9a9, #b7a9a9, #bfabd4, #e2e2e2);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease-out;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+#title {
+    color: #fff;
+}
+.navbar-expand-lg {
+    font-size: large;
+    list-style: none;
+    padding: 30px 40px;
+}
+.nav-item:hover {
+    opacity: 0.4;
+}
+
+.horizontal-rule-hero {
+    
+}
+.my-hero-class {
+    background-color:transparent;
+    height: 70vh;
+    background-color: blue;
+}
+
+.lead {
+    padding-bottom: 2rem;
+}
+
+.my-contact-button {
+    width: 30%;
+    height: 30%;
+}
+
+.molecules-hero {
+    padding-right: 1.5rem;
+}
+
+#carousel {
+    padding-top: 2rem;
+}
+
+.profile-img {
+    height: 110px;
+    border-radius: 5px;
+}
